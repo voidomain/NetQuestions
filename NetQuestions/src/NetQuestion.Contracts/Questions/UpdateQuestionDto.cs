@@ -1,3 +1,3 @@
-﻿namespace NetQuestion.Contracts;
+﻿namespace NetQuestion.Contracts.Questions;
 
 public record UpdateQuestionDto(string Title, string Body, Guid[] TagIds);

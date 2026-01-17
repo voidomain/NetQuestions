@@ -13,6 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\NetQuestions.Application\NetQuestions.Application.csproj" />
       <ProjectReference Include="..\NetQuestions.Entity\NetQuestions.Entity.csproj" />
       <ProjectReference Include="..\NetQuestions.Presenters\NetQuestions.Presenters.csproj" />
     </ItemGroup>
