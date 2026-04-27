@@ -1,1 +1,1 @@
-chore: minor update
+feat: Custom Exceptions + serializer + middlewares
