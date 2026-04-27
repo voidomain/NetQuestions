@@ -9,6 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\NetQuestion.Contracts\NetQuestion.Contracts.csproj" />
       <ProjectReference Include="..\NetQuestions.Entity\NetQuestions.Entity.csproj" />
+      <ProjectReference Include="..\Shared\Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>

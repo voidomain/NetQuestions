@@ -1,14 +1,15 @@
-﻿using FluentValidation;
-using Microsoft.Extensions.DependencyInjection;
-using NetQuestions.Application.Questions;
+﻿using NetQuestion.Infrastructure.Postgres;
+using NetQuestions.Application;
 
-namespace NetQuestions.Application;
+namespace NetQuestions;
 
 public static class DependencyInjection
 {
     public static IServiceCollection AddProgramDependencies(this IServiceCollection services) =>
-        services.AddWebDependencies()
-            .AddApplication();
+        services
+            .AddWebDependencies()
+            .AddApplication()
+            .AddPostgresInfrastructure();
 
     private static IServiceCollection AddWebDependencies(this IServiceCollection services)
     {
